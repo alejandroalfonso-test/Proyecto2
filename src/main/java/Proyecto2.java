@@ -8,7 +8,7 @@ public class Proyecto2 {
         Scanner sc = new Scanner(System.in);
         int numeroSecreto =(int) (Math.random() * 100 + 1);
         
-        System.out.println("Introduzca numeros de 0 a 100 : ");
+        System.out.println("Introduzca numero req de 0 a 100 : ");
         int numero = sc.nextInt();
         
         while (numeroSecreto != numero && numero != -1){
